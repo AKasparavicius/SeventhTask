@@ -1,7 +1,7 @@
 package lt.arnas.seventhtask
 
-class Shape(var sideOne: Int,
-            var sideTwo: Int) {
+open class Shape(var sideOne: Int,
+                 var sideTwo: Int) {
 
     var area: Int = 0
 
