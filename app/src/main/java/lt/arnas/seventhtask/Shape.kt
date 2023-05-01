@@ -5,7 +5,7 @@ open class Shape(var sideOne: Int,
 
     var area: Int = 0
 
-    fun calculateArea(){
+    open fun calculateArea(){
         area = sideOne * sideTwo
     }
 
